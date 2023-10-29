@@ -20,11 +20,10 @@ bill_total = cake * 2 + sandwich * 6 + banh_mi * 1
 
 # Applying discounts based on the total bill amount
 if bill_total > 10 and bill_total < 20:  # 10 < bill_total < 20:
-    print("Your bill is $" + str(bill_total) +
-          ". You are eligible for a $" + str(discount_1) + " discount.")
+    print("Your bill is $", bill_total,
+          ". You are eligible for a $", discount_1, " discount.")
     bill_total -= discount_1
 elif bill_total >= 20:
-
     print("Your bill is $" + str(bill_total) +
           ". You are eligible for a $" + str(discount_2) + " discount.")
     bill_total -= discount_2
