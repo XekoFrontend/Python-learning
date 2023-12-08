@@ -3,3 +3,4 @@ z = ["alpha", "bravo", "charlie"]
 new_z = [for i in z]
 print(new_z)
 # 6/12/23
+# 8/12/23
